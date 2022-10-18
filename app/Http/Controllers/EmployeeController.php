@@ -302,7 +302,6 @@ class EmployeeController extends Controller
                     $html .= '<button data-rowid="' . $row['id'] . '" class="btn btn-xs btn-danger btn-delete">Del</button>';
                     return $html;
                 })->toJson();
-      
             }
         return view('backend.curl.datatable');
     }
